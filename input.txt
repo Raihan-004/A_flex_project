@@ -1,0 +1,27 @@
+int main()
+{
+    int i=0,j=5;
+    float exp=-2.5e-4,neg=-73.998;
+    char str[]="CUET_CSE\n";
+    char ch='a';
+    printf("Name: Raihan\n");
+    printf("Id: 1804004\n");
+    printf("Depertment: CSE\n");
+
+    char s[] = "madam";
+    int n,c=0;
+ 
+    printf("Enter  the string : ");
+    
+    n=strlen(s);
+ 
+    for (i=0;i<n/2;i++)  
+    {
+    	if (s[i]==s[n-i-1])
+    	c++;
+    }
+    
+    printf("string is %s palindrome\n", (c == i) ? "" : "not");
+
+    return 0;
+}
